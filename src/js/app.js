@@ -83,6 +83,7 @@
 
 
 import goblinImage from '../img/goblin.png';
+import hammerImage from '../img/hammer.png';
 
 // Создание поля
 const gameField = document.getElementById('gameField');
@@ -113,7 +114,7 @@ character.classList.add('goblin');
 const cursor = document.createElement('div');
 cursor.classList.add('cursor');
 cursor.style.display = 'none'; // Скрываем изначально
-cursor.style.cursor = 'url(./img/hammer.png), auto'; // Добавляем изображение молотка
+cursor.style.cursor = hammerImage // Добавляем изображение молотка
 
 document.body.append(cursor);
 
