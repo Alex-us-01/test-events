@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.game-field {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cell {
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
