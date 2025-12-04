@@ -37,7 +37,11 @@ img {
 } */
 
 
-body {
+
+
+/*___________________________________________________________________________________________________________
+
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,4 +157,38 @@ button:hover {
     .score {
         font-size: 18px;
     }
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+	text-align: center;
+}
+
+.board {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	width: 700px;
+	margin:  auto;
+}
+
+.cell {
+    display:  flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-color: #9b9ca5;
+}
+
+.active {
+    background-image: url(../img/goblin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
