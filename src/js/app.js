@@ -224,7 +224,7 @@
 // startGame();
 
 
-import GamePlay from './src/js/GamePlay';
+import GamePlay from './GamePlay';
 
 const game = new GamePlay();
 game.startGame();
