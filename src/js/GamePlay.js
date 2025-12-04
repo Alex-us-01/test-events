@@ -1,5 +1,5 @@
-import Board from './Board';
-import Character from './Character';
+import Board from './src/js/Board';
+import Character from './src/js/Character';
 
 export default class GamePlay {
   constructor() {
